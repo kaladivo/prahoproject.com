@@ -34,5 +34,15 @@
     "cart": "Košík",
     "menu": "Menu",
     "closeMenu": "Zavřít menu"
+  },
+  "footer": {
+    "address": "H40, Bubenské nábřeží 306/13, Praha 7",
+    "privacy": "Zásady ochrany osobních údajů",
+    "cookies": "Používání souborů cookies",
+    "terms": "Všeobecné obchodní podmínky",
+    "newsletter": "Newsletter",
+    "emailPlaceholder": "Váš e-mail",
+    "subscribe": "Odeslat",
+    "copyright": "© 2026 PRAHO! PROJECT. ALL RIGHTS RESERVED."
   }
 }

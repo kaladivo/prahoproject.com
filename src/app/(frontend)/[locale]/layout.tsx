@@ -7,6 +7,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server'
 
 import { routing } from '@/i18n/routing'
 import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 import './globals.css'
 
@@ -59,6 +60,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
