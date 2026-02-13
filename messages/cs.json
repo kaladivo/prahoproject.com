@@ -1,0 +1,11 @@
+{
+  "common": {
+    "language": "Čeština",
+    "switchLanguage": "English"
+  },
+  "home": {
+    "title": "PRAHO! Project",
+    "description": "PRAHO! — pražská holešovická",
+    "underConstruction": "Stránky se připravují"
+  }
+}

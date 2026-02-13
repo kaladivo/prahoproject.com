@@ -16,6 +16,20 @@ export default buildConfig({
       baseDir: path.resolve(dirname),
     },
   },
+  localization: {
+    locales: [
+      {
+        label: 'Čeština',
+        code: 'cs',
+      },
+      {
+        label: 'English',
+        code: 'en',
+      },
+    ],
+    defaultLocale: 'cs',
+    fallback: true,
+  },
   collections: [Media],
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

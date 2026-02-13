@@ -1,0 +1,11 @@
+{
+  "common": {
+    "language": "English",
+    "switchLanguage": "Čeština"
+  },
+  "home": {
+    "title": "PRAHO! Project",
+    "description": "PRAHO! — Prague Holešovice",
+    "underConstruction": "Site under construction"
+  }
+}

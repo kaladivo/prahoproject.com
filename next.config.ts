@@ -1,12 +1,15 @@
 import path from 'path'
 import { fileURLToPath } from 'url'
 import { withPayload } from '@payloadcms/next/withPayload'
+import createNextIntlPlugin from 'next-intl/plugin'
 import type { NextConfig } from 'next'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
+
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 
 const nextConfig: NextConfig = {
   outputFileTracingRoot: __dirname,
 }
 
-export default withPayload(nextConfig)
+export default withPayload(withNextIntl(nextConfig))
