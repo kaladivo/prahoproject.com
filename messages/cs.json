@@ -7,5 +7,32 @@
     "title": "PRAHO! Project",
     "description": "PRAHO! — pražská holešovická",
     "underConstruction": "Stránky se připravují"
+  },
+  "nav": {
+    "informace": "Informace",
+    "oProjektu": "O projektu",
+    "evropskeProjekty": "Evropské projekty",
+    "oAutorech": "O autorech",
+    "partneri": "Partneři",
+    "manifest": "Manifest",
+    "napsaliONas": "Napsali o nás",
+    "oceneniAUznani": "Ocenění a uznání",
+    "blog": "Blog",
+    "novinky": "Novinky",
+    "aCoTy": "A co Ty?",
+    "statistiky": "Statistiky",
+    "umeleckeVystupy": "Umělecké výstupy",
+    "realizace": "Realizace",
+    "autorskaTvorba": "Autorská tvorba",
+    "eshop": "E-shop",
+    "podporNas": "Podpoř nás",
+    "kontakt": "Kontakt",
+    "proTebe": "Pro Tebe",
+    "proMedia": "Pro média",
+    "oSpolku": "O spolku",
+    "stockholm": "STOCKHOLM!",
+    "cart": "Košík",
+    "menu": "Menu",
+    "closeMenu": "Zavřít menu"
   }
 }

@@ -6,6 +6,7 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { getMessages, setRequestLocale } from 'next-intl/server'
 
 import { routing } from '@/i18n/routing'
+import { Header } from '@/components/Header'
 
 import './globals.css'
 
@@ -56,6 +57,7 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${montserrat.variable} ${inconsolata.variable} ${openSans.variable}`}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
           {children}
         </NextIntlClientProvider>
       </body>

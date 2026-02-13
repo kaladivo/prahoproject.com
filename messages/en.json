@@ -7,5 +7,32 @@
     "title": "PRAHO! Project",
     "description": "PRAHO! — Prague Holešovice",
     "underConstruction": "Site under construction"
+  },
+  "nav": {
+    "informace": "Information",
+    "oProjektu": "About the project",
+    "evropskeProjekty": "European projects",
+    "oAutorech": "About the authors",
+    "partneri": "Partners",
+    "manifest": "Manifest",
+    "napsaliONas": "Press",
+    "oceneniAUznani": "Awards",
+    "blog": "Blog",
+    "novinky": "News",
+    "aCoTy": "And what about You?",
+    "statistiky": "Statistics",
+    "umeleckeVystupy": "Artistic outputs",
+    "realizace": "Installations",
+    "autorskaTvorba": "Author creations",
+    "eshop": "E-shop",
+    "podporNas": "Support us",
+    "kontakt": "Contact",
+    "proTebe": "For You",
+    "proMedia": "For media",
+    "oSpolku": "About the association",
+    "stockholm": "STOCKHOLM!",
+    "cart": "Cart",
+    "menu": "Menu",
+    "closeMenu": "Close menu"
   }
 }
