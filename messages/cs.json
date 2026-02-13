@@ -6,7 +6,10 @@
   "home": {
     "title": "PRAHO! Project",
     "description": "PRAHO! — pražská holešovická",
-    "underConstruction": "Stránky se připravují"
+    "underConstruction": "Stránky se připravují",
+    "heroTagline": "Skrze umění a upřímná slova navracíme místům jejich lidskost.",
+    "heroLink": "PRAHO! PROJECT",
+    "heroLabel": "PRAHO!"
   },
   "nav": {
     "informace": "Informace",

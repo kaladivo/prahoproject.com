@@ -6,7 +6,10 @@
   "home": {
     "title": "PRAHO! Project",
     "description": "PRAHO! — Prague Holešovice",
-    "underConstruction": "Site under construction"
+    "underConstruction": "Site under construction",
+    "heroTagline": "Through art and sincere words, we return humanity to places.",
+    "heroLink": "PRAHO! PROJECT",
+    "heroLabel": "PRAHO!"
   },
   "nav": {
     "informace": "Information",
