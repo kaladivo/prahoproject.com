@@ -6,6 +6,9 @@ import { lexicalEditor } from '@payloadcms/richtext-lexical'
 import sharp from 'sharp'
 
 import { Media } from './collections/Media'
+import { Pages } from './collections/Pages'
+import { TeamMembers } from './collections/TeamMembers'
+import { Partners } from './collections/Partners'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -30,7 +33,7 @@ export default buildConfig({
     defaultLocale: 'cs',
     fallback: true,
   },
-  collections: [Media],
+  collections: [Media, Pages, TeamMembers, Partners],
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),
