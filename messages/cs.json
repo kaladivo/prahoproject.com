@@ -50,6 +50,9 @@
     "marketing": "Marketingové",
     "save": "Uložit"
   },
+  "legal": {
+    "effectiveFrom": "Účinné od"
+  },
   "footer": {
     "address": "H40, Bubenské nábřeží 306/13, Praha 7",
     "privacy": "Zásady ochrany osobních údajů",

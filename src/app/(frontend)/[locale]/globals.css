@@ -186,3 +186,117 @@
     color: var(--color-placeholder);
   }
 }
+
+/* ============================================
+   Rich Text / Legal Page Prose
+   ============================================ */
+
+.rich-text h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.rich-text h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.rich-text h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.rich-text p {
+  margin-bottom: 1rem;
+  color: var(--color-text-muted);
+}
+
+.rich-text ul,
+.rich-text ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  color: var(--color-text-muted);
+}
+
+.rich-text ul {
+  list-style-type: disc;
+}
+
+.rich-text ol {
+  list-style-type: decimal;
+}
+
+.rich-text li {
+  margin-bottom: 0.25rem;
+}
+
+.rich-text a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.rich-text a:hover {
+  text-decoration: none;
+}
+
+.rich-text blockquote {
+  border-left: 3px solid var(--color-primary);
+  padding-left: 1.25rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--color-gray);
+}
+
+.rich-text hr {
+  border: none;
+  border-top: 1px solid var(--color-border-light);
+  margin: 2rem 0;
+}
+
+/* Accordion for Terms & Conditions */
+
+.legal-accordion details {
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.legal-accordion details summary {
+  cursor: pointer;
+  padding: 1.25rem 0;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h5);
+  font-weight: 500;
+  line-height: 25px;
+  color: var(--color-text);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  transition: color 0.2s;
+}
+
+.legal-accordion details summary:hover {
+  color: var(--color-primary);
+}
+
+.legal-accordion details summary::-webkit-details-marker {
+  display: none;
+}
+
+.legal-accordion details summary::after {
+  content: '+';
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.legal-accordion details[open] summary::after {
+  content: '−';
+}
+
+.legal-accordion details > div {
+  padding-bottom: 1.5rem;
+}
