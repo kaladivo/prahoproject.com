@@ -142,5 +142,35 @@
     "international": "International partners",
     "strategic": "Strategic partners",
     "media": "Media partners"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Contact us via email, phone, or contact form. All inquiries are handled within 24 hours. For urgent matters, reach us on",
+    "directContact": "Direct contact",
+    "orgDetails": "Organization details",
+    "orgName": "Name",
+    "orgType": "Type",
+    "orgTypeValue": "registered association",
+    "orgIc": "ID",
+    "orgAddress": "Registered address",
+    "orgBank": "Bank account",
+    "orgDatabox": "Data box",
+    "formTitle": "Write to us",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Message",
+    "submit": "SEND",
+    "sending": "SENDING...",
+    "successMessage": "Thank you for your message! We'll get back to you soon.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "teamTitle": "Contact people"
+  },
+  "media": {
+    "title": "For media",
+    "intro": "Thank you for giving our words space! Below you'll find contacts for our team and access to the press center.",
+    "contactsTitle": "Media contacts",
+    "pressCenterTitle": "Press center",
+    "pressCenterDesc": "In our press center you'll find press releases, logos, and photographs for download.",
+    "pressKit": "Press materials"
   }
 }

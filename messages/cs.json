@@ -142,5 +142,35 @@
     "international": "Mezinárodní partneři",
     "strategic": "Strategičtí partneři",
     "media": "Mediální partneři"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Kontaktujte nás e-mailem, telefonicky nebo přes kontaktní formulář. Na všechny dotazy odpovídáme do 24 hodin. Pro urgentní záležitosti nás kontaktujte přes",
+    "directContact": "Přímý kontakt",
+    "orgDetails": "Údaje o spolku",
+    "orgName": "Název",
+    "orgType": "Druh společnosti",
+    "orgTypeValue": "zapsaný spolek",
+    "orgIc": "IČ",
+    "orgAddress": "Sídlo",
+    "orgBank": "Bankovní spojení",
+    "orgDatabox": "Datová schránka",
+    "formTitle": "Napište nám",
+    "namePlaceholder": "Jméno",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Zpráva",
+    "submit": "ODESLAT",
+    "sending": "ODESÍLÁNÍ...",
+    "successMessage": "Děkujeme za zprávu! Ozveme se vám co nejdříve.",
+    "errorMessage": "Něco se nepovedlo. Zkuste to prosím znovu.",
+    "teamTitle": "Kontaktní osoby"
+  },
+  "media": {
+    "title": "Pro média",
+    "intro": "Děkujeme, že dáváte našim slovům prostor! Níže najdete kontakty na náš tým a přístup do tiskového centra.",
+    "contactsTitle": "Mediální kontakty",
+    "pressCenterTitle": "Tiskové centrum",
+    "pressCenterDesc": "V našem tiskovém centru najdete tiskové zprávy, loga a fotografie ke stažení.",
+    "pressKit": "Tiskové materiály"
   }
 }
