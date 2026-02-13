@@ -1,1 +1,152 @@
 @import 'tailwindcss';
+
+/* ============================================
+   PRAHO! Design System — Tailwind v4 Theme
+   Tokens from docs/design-tokens.md
+   ============================================ */
+
+@theme {
+  /* --- Colors --- */
+  --color-primary: #4d2dff;
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* Neutrals */
+  --color-text: #000000;
+  --color-text-dark: #212121;
+  --color-text-muted: #333333;
+  --color-gray: #6d6d6d;
+  --color-placeholder: #7e7e7e;
+  --color-border-input: #a5a5a5;
+  --color-border-light: #aaaaaa;
+  --color-bg-muted: #ededed;
+  --color-bg-warm: #fff2dc;
+
+  /* Semantic */
+  --color-footer-bg: #000000;
+  --color-footer-text: #ffffff;
+
+  /* --- Font Families --- */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-mono: 'Inconsolata', sans-serif;
+  --font-display: 'Open Sans', sans-serif;
+  --font-accent: 'Cormorant Garamond', Georgia, serif;
+
+  /* --- Font Sizes (with line-height) --- */
+  --font-size-hero: 70px;
+  --font-size-h1: 50px;
+  --font-size-h2: 40px;
+  --font-size-h3: 35px;
+  --font-size-h4: 27px;
+  --font-size-h5: 18px;
+  --font-size-h6: 14px;
+  --font-size-body: 14px;
+  --font-size-btn: 12px;
+  --font-size-btn-sm: 13px;
+  --font-size-sm: 13px;
+
+  /* --- Letter Spacing --- */
+  --tracking-tight: -0.75px;
+  --tracking-h2: -0.6px;
+  --tracking-h3: -0.7px;
+  --tracking-wide: 3.6px;
+  --tracking-wider: 3.9px;
+  --tracking-widest: 4.2px;
+
+  /* --- Container / Layout --- */
+  --container-max: 1300px;
+  --width-content: 1138px;
+
+  /* --- Spacing --- */
+  --spacing-grid-gutter: 30px;
+
+  /* --- Breakpoints --- */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1300px;
+}
+
+/* ============================================
+   Base Styles
+   ============================================ */
+
+@layer base {
+  body {
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h1);
+    font-weight: 500;
+    line-height: 57px;
+    letter-spacing: -0.75px;
+    color: var(--color-primary);
+  }
+
+  h2 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h2);
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: -0.6px;
+    color: var(--color-text);
+  }
+
+  h3 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h3);
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.7px;
+    color: var(--color-text);
+  }
+
+  h4 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h4);
+    font-weight: 500;
+    line-height: 34px;
+    color: var(--color-primary);
+  }
+
+  h5 {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-h5);
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--color-text);
+  }
+
+  h6 {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-h6);
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    color: var(--color-text);
+  }
+
+  a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--color-primary);
+  }
+
+  ::placeholder {
+    color: var(--color-placeholder);
+  }
+}
