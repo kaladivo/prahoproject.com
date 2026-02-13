@@ -38,6 +38,18 @@
     "menu": "Menu",
     "closeMenu": "Close menu"
   },
+  "cookies": {
+    "heading": "Your privacy matters to us",
+    "description": "We use cookies to improve your experience, analyze traffic, and personalize content. You can customize your preferences or accept all cookies.",
+    "customize": "Customize",
+    "decline": "Decline",
+    "acceptAll": "Accept all",
+    "close": "Close",
+    "necessary": "Necessary",
+    "analytics": "Analytics",
+    "marketing": "Marketing",
+    "save": "Save"
+  },
   "footer": {
     "address": "H40, Bubenské nábřeží 306/13, Prague 7",
     "privacy": "Privacy Policy",
