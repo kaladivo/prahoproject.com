@@ -40,6 +40,13 @@ function useNavItems(): NavItem[] {
       ],
     },
     {
+      label: t('aCoTy'),
+      children: [
+        { label: t('aCoTy'), href: '/a-co-ty' },
+        { label: t('statistiky'), href: '/a-co-ty/statistiky' },
+      ],
+    },
+    {
       label: t('eshop'),
       href: '/e-shop',
     },

@@ -266,5 +266,25 @@
     "faq4a": "Each maintains separate teams, accounting, and funding. They function as sister organizations rather than hierarchical entities. A Memorandum of Understanding documents their relationship.",
     "faq5q": "Can people participate in both?",
     "faq5a": "Yes — involvement depends on geographic location, though many activities operate online, including project collaboration and mentoring opportunities."
+  },
+  "quiz": {
+    "title": "And what about You?",
+    "intro": "Answer a few questions and help us better understand how you perceive the world around you. Your answers will become part of the PRAHO! art project.",
+    "noQuizzes": "No questionnaires yet.",
+    "startQuiz": "Take the quiz",
+    "question": "Question {current} of {total}",
+    "next": "CONTINUE",
+    "back": "Back",
+    "submit": "SUBMIT",
+    "submitting": "SUBMITTING...",
+    "thankYou": "Thank you!",
+    "defaultThankYou": "Thank you for your answers. Your voice matters to us.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "tryAgain": "TRY AGAIN",
+    "typeAnswer": "Type your answer...",
+    "statsTitle": "Statistics",
+    "statsIntro": "Aggregated results from our questionnaire responses.",
+    "totalResponses": "Total responses",
+    "noStats": "No statistics yet."
   }
 }

@@ -266,5 +266,25 @@
     "faq4a": "Každá má samostatný tým, účetnictví a financování. Fungují jako sesterské organizace, nikoli hierarchické. Jejich vztah dokumentuje Memorandum o porozumění.",
     "faq5q": "Mohou se lidé zapojit do obou?",
     "faq5a": "Ano — zapojení závisí na geografické poloze, ačkoli mnoho aktivit probíhá online, včetně projektové spolupráce a mentoringových příležitostí."
+  },
+  "quiz": {
+    "title": "A co Ty?",
+    "intro": "Odpověz na pár otázek a pomoz nám lépe porozumět tomu, jak vnímáš svět kolem sebe. Tvé odpovědi se stanou součástí uměleckého projektu PRAHO!",
+    "noQuizzes": "Zatím žádné dotazníky.",
+    "startQuiz": "Vyplnit dotazník",
+    "question": "Otázka {current} z {total}",
+    "next": "POKRAČOVAT",
+    "back": "Zpět",
+    "submit": "ODESLAT",
+    "submitting": "ODESÍLÁNÍ...",
+    "thankYou": "Děkujeme!",
+    "defaultThankYou": "Děkujeme za Tvé odpovědi. Tvůj hlas je pro nás důležitý.",
+    "errorMessage": "Něco se nepovedlo. Zkuste to prosím znovu.",
+    "tryAgain": "ZKUSIT ZNOVU",
+    "typeAnswer": "Napiš svou odpověď...",
+    "statsTitle": "Statistiky",
+    "statsIntro": "Souhrnné výsledky odpovědí z našich dotazníků.",
+    "totalResponses": "Celkem odpovědí",
+    "noStats": "Zatím žádné statistiky."
   }
 }
