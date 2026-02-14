@@ -26,6 +26,11 @@ export const BlogPosts: CollectionConfig = {
       },
     },
     {
+      name: 'excerpt',
+      type: 'textarea',
+      localized: true,
+    },
+    {
       name: 'content',
       type: 'richText',
       localized: true,
@@ -36,16 +41,16 @@ export const BlogPosts: CollectionConfig = {
       relationTo: 'media',
     },
     {
-      name: 'categories',
-      type: 'array',
-      fields: [
-        {
-          name: 'category',
-          type: 'text',
-          required: true,
-          localized: true,
-        },
+      name: 'category',
+      type: 'select',
+      required: true,
+      options: [
+        { label: 'News', value: 'news' },
+        { label: 'Therapeutic', value: 'therapeutic' },
       ],
+      admin: {
+        position: 'sidebar',
+      },
     },
     {
       name: 'publishedDate',

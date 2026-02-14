@@ -38,6 +38,18 @@ export const PortfolioItems: CollectionConfig = {
       },
     },
     {
+      name: 'year',
+      type: 'text',
+      admin: {
+        position: 'sidebar',
+      },
+    },
+    {
+      name: 'location',
+      type: 'text',
+      localized: true,
+    },
+    {
       name: 'description',
       type: 'richText',
       localized: true,
