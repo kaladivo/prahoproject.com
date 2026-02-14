@@ -234,6 +234,22 @@
     "strategicTitle": "Strategická komise",
     "strategicDesc": "Stanovuje dlouhodobé směřování; složená z externích odborníků a poradců. Jména členů nejsou veřejně zveřejňována; složení je potvrzováno na každoroční valné hromadě."
   },
+  "portfolio": {
+    "realizaceTitle": "Realizace",
+    "realizaceIntro": "Přehled uměleckých realizací projektu PRAHO! ve veřejném prostoru — instalace, intervence a participativní díla v ulicích Prahy.",
+    "autorskaTvorbaTitle": "Autorská tvorba",
+    "autorskaTvorbaIntro": "Autorské publikace, hry a produkty nesoucí filozofii projektu PRAHO! — originální díla určená k osobnímu prožitku.",
+    "allProjects": "Vše",
+    "realizace": "Realizace",
+    "autorskaTvorba": "Autorská tvorba",
+    "backToPortfolio": "Zpět na přehled",
+    "partnersTitle": "Partneři",
+    "informationTitle": "Informace",
+    "location": "Místo",
+    "year": "Rok",
+    "category": "Kategorie",
+    "gallery": "Galerie"
+  },
   "stockholm": {
     "title": "STOCKHOLM! project",
     "intro": "STOCKHOLM! project vznikl v roce 2019, kdy zakladatelka Annamarie studovala dokumentární režii na Stockholm University of the Arts. Původní koncept sloužil jako filmový námět, který nebyl nikdy zrealizován, ale filozofie participativního umění přetrvala.",

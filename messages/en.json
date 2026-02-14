@@ -234,6 +234,22 @@
     "strategicTitle": "Strategic Commission",
     "strategicDesc": "Establishes long-term direction; comprises external experts and advisors. Member names are not publicly disclosed; composition is confirmed annually at the general assembly."
   },
+  "portfolio": {
+    "realizaceTitle": "Installations",
+    "realizaceIntro": "An overview of PRAHO! project's artistic installations in public space — interventions and participatory works in the streets of Prague.",
+    "autorskaTvorbaTitle": "Author Creations",
+    "autorskaTvorbaIntro": "Original publications, games, and products carrying the philosophy of the PRAHO! project — works designed for personal experience.",
+    "allProjects": "All",
+    "realizace": "Installations",
+    "autorskaTvorba": "Author Creations",
+    "backToPortfolio": "Back to overview",
+    "partnersTitle": "Partners",
+    "informationTitle": "Information",
+    "location": "Location",
+    "year": "Year",
+    "category": "Category",
+    "gallery": "Gallery"
+  },
   "stockholm": {
     "title": "STOCKHOLM! project",
     "intro": "The STOCKHOLM! project originated in 2019 when founder Annamarie was studying documentary directing at Stockholm University of the Arts. The initial concept served as a film premise that was never produced, but the participatory art philosophy persisted.",
