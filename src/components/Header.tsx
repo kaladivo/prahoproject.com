@@ -7,6 +7,7 @@ import { Link, usePathname, useRouter } from '@/i18n/navigation'
 import { useLocale } from 'next-intl'
 import type { Locale } from '@/i18n/routing'
 import { Container } from '@/components/ui'
+import { CartBadge } from '@/components/CartBadge'
 
 type NavItem = {
   label: string
@@ -271,7 +272,7 @@ function MobileMenu({
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />
               </svg>
-              {t('cart')} 0
+              {t('cart')} <CartBadge />
             </Link>
           </div>
         </div>
@@ -373,7 +374,7 @@ export function Header() {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />
               </svg>
-              {t('cart')} 0
+              {t('cart')} <CartBadge />
             </Link>
           </div>
 
@@ -386,7 +387,7 @@ export function Header() {
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                 <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />
               </svg>
-              0
+              <CartBadge />
             </Link>
             <button
               type="button"

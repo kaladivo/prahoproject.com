@@ -14,6 +14,8 @@ import { BlogPosts } from './collections/BlogPosts'
 import { LegalPages } from './collections/LegalPages'
 import { Quizzes } from './collections/Quizzes'
 import { QuizResponses } from './collections/QuizResponses'
+import { Products } from './collections/Products'
+import { Orders } from './collections/Orders'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -38,7 +40,7 @@ export default buildConfig({
     defaultLocale: 'cs',
     fallback: true,
   },
-  collections: [Media, Pages, TeamMembers, Partners, PortfolioItems, BlogPosts, LegalPages, Quizzes, QuizResponses],
+  collections: [Media, Pages, TeamMembers, Partners, PortfolioItems, BlogPosts, LegalPages, Quizzes, QuizResponses, Products, Orders],
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),

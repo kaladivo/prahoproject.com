@@ -20,6 +20,9 @@ importers:
       '@payloadcms/ui':
         specifier: ^3.69.0
         version: 3.76.1(@types/react@19.2.14)(monaco-editor@0.55.1)(next@15.5.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.77.4))(payload@3.76.1(graphql@16.12.0)(typescript@5.9.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
+      '@stripe/stripe-js':
+        specifier: ^8.7.0
+        version: 8.7.0
       graphql:
         specifier: ^16.10.0
         version: 16.12.0
@@ -41,6 +44,9 @@ importers:
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
+      stripe:
+        specifier: ^20.3.1
+        version: 20.3.1(@types/node@22.19.11)
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.3.3
@@ -1334,6 +1340,10 @@ packages:
 
   '@schummar/icu-type-parser@1.21.5':
     resolution: {integrity: sha512-bXHSaW5jRTmke9Vd0h5P7BtWZG9Znqb8gSDxZnxaGSJnGwPLDPfS+3g0BKzeWqzgZPsIVZkM7m2tbo18cm5HBw==}
+
+  '@stripe/stripe-js@8.7.0':
+    resolution: {integrity: sha512-tNUerSstwNC1KuHgX4CASGO0Md3CB26IJzSXmVlSuFvhsBP4ZaEPpY4jxWOn9tfdDscuVT4Kqb8cZ2o9nLCgRQ==}
+    engines: {node: '>=12.16'}
 
   '@swc/core-darwin-arm64@1.15.11':
     resolution: {integrity: sha512-QoIupRWVH8AF1TgxYyeA5nS18dtqMuxNwchjBIwJo3RdwLEFiJq6onOx9JAxHtuPwUkIVuU2Xbp+jCJ7Vzmgtg==}
@@ -3595,6 +3605,15 @@ packages:
     resolution: {integrity: sha512-1tB5mhVo7U+ETBKNf92xT4hrQa3pm0MZ0PQvuDnWgAAGHDsfp4lPSpiS6psrSiet87wyGPh9ft6wmhOMQ0hDiw==}
     engines: {node: '>=14.16'}
 
+  stripe@20.3.1:
+    resolution: {integrity: sha512-k990yOT5G5rhX3XluRPw5Y8RLdJDW4dzQ29wWT66piHrbnM2KyamJ1dKgPsw4HzGHRWjDiSSdcI2WdxQUPV3aQ==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      '@types/node': '>=16'
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+
   strtok3@8.1.0:
     resolution: {integrity: sha512-ExzDvHYPj6F6QkSNe/JxSlBxTh3OrI6wrAIz53ulxo1c4hBJ1bT9C/JrAthEKHWG9riVH3Xzg7B03Oxty6S2Lw==}
     engines: {node: '>=16'}
@@ -5069,6 +5088,8 @@ snapshots:
   '@rushstack/eslint-patch@1.15.0': {}
 
   '@schummar/icu-type-parser@1.21.5': {}
+
+  '@stripe/stripe-js@8.7.0': {}
 
   '@swc/core-darwin-arm64@1.15.11':
     optional: true
@@ -7679,6 +7700,10 @@ snapshots:
   strip-json-comments@3.1.1: {}
 
   strip-json-comments@5.0.3: {}
+
+  stripe@20.3.1(@types/node@22.19.11):
+    optionalDependencies:
+      '@types/node': 22.19.11
 
   strtok3@8.1.0:
     dependencies:

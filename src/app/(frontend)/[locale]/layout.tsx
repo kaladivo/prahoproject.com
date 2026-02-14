@@ -9,6 +9,7 @@ import { routing } from '@/i18n/routing'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { CookieConsent } from '@/components/CookieConsent'
+import { CartProvider } from '@/components/CartProvider'
 
 import './globals.css'
 
@@ -59,10 +60,12 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${montserrat.variable} ${inconsolata.variable} ${openSans.variable}`}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          {children}
-          <Footer />
-          <CookieConsent />
+          <CartProvider>
+            <Header />
+            {children}
+            <Footer />
+            <CookieConsent />
+          </CartProvider>
         </NextIntlClientProvider>
       </body>
     </html>
